@@ -28,7 +28,7 @@ def gen():
             else:
                 canvas.create_rectangle(x1,y1,x1-z,y1-z,fill='black')
     if f==3:
-        canvas.create_polygon(randint(1,x),randint(1,y),randint(1,x),randint(1,y),randint(1,x),randint(1,y),)
+        canvas.create_polygon(randint(1,x),randint(1,y),randint(1,x),randint(1,y),randint(1,x),randint(1,y))
 root=Tk()
 x,y=810,500
 canvas=Canvas(width=x,height=y,bg='white')
